@@ -1,7 +1,7 @@
 body {
     font-size: 67.5%;
     font-family: Tahoma, Geneva, sans-serif;
-    background: navy;
+    background: black;
     padding: 0;
     margin: 0;
     -webkit-background-size: 100% 100%;
@@ -61,11 +61,11 @@ hr {
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background: grey;
+    background-image: url(./assets/background3.jpg);
 }
 header h1 {
     font-family:'Times New Roman', Times, serif;
-    color: black;
+    color: skyblue;
     font-size: 7.5em;
     letter-spacing: -0.025em;
     margin: 0;
@@ -73,7 +73,7 @@ header h1 {
 header 2 {
     font-weight: 300;
     font-size: 3.8em;
-    color: black;
+    color: white;
     margin: -0.4em 0 0 1.0em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -81,7 +81,7 @@ header 2 {
 
 }
 nav {
-    color: #000;
+    color: white;
     font-size: 1.7em;
     letter-spacing: 0.04em;
     padding: 1.0em 1.0em 0.5em;
@@ -110,7 +110,7 @@ nav#utilityMenu {
     float: right;
     margin: -1.5em 0 0 0;
     padding: 0.35em;
-    background-color: rgba(64,54,47,0.8);
+    background-color: white;
     height: 1.3em;
 }
 nav#utilityMenu li{
@@ -130,7 +130,7 @@ nav#utilityMenu ul li.acctNav a.active {
     background-color:aqua;
 }
 nav#utilityMenu ul li.acctNav a:hover {
-    background-color: black;
+    background-color: white;
 }
 nav#utilityMenu li a, nav#utilityMenu li a:visited {
     padding: 0;
@@ -144,7 +144,7 @@ nav#utilityMenu ul li input#search {
 }
 nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before {
     content: "| ";
-    color: black;
+    color: white;
 }
 section#sidebar {
     width: 238px;
@@ -165,7 +165,7 @@ section #main {
     box-shadow: 1px 1px 5px #777
 }
 section div.panel {
-    float: left;
+    float: right;
     position: relative;
     width: 250px;
     margin: 0 0.5em 2.0em 0.5em;
@@ -175,10 +175,10 @@ section div.panel {
     border-radius: 0.6em;
 }
 footer {
-    background-color: white;
+    background-color: darkblue;
     height: 25px;
     font-size: 1.2em;
-    color: black;
+    color: white;
     text-align: center;
     padding: 1.5em 2.0em;
 }
@@ -198,11 +198,11 @@ footer ul li::before {
     padding-right: 0.7em;
 }
 footer a, footer a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 footer a:hover {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 div.clear {
